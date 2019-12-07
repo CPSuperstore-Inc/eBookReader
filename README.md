@@ -1,14 +1,14 @@
 # eBookReader
 A Small Application For Reading eBooks Using Speech Synthesis.
 
-##Dependencies
+## Dependencies
 This project relies on the `pyttsx3` library. To install, please run the command:
 
 `pip3 install pyttsx3` or `pip install pyttsx3` depending on how your Python environment is set up.
 
 If I have missed anything, please submit an issue to let me know at (https://github.com/CPSuperstore-Inc/eBookReader/issues)
 
-##Usage
+## Usage
 To use this application, simply run `eBookReader.py`. This **MUST** be run with a Python3 interpreter.
 
 Note that it may take a bit for the UI to actually launch.

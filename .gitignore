@@ -18,6 +18,8 @@ lib/
 lib64/
 parts/
 .idea/
+*.abf
+*.sabf
 sdist/
 var/
 wheels/

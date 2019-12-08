@@ -1,7 +1,6 @@
 FILE_PATH = None
 
-BOOKS_DIR = "assets/Books"
-SUMMARY_DIR = "assets/Summary"
+FILE_SAVE_DIR = "Books"
 
 PAGE_DELIMITER = "*----*----*"
 

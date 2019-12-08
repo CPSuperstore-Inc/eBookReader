@@ -1,5 +1,4 @@
 import os
-import sys
 import threading
 import tkinter as tk
 from tkinter import *
@@ -73,6 +72,10 @@ def read_book(name, data, page=1):
         stopped = True
         engine.stop()
 
+    def go_home():
+        stop()
+        root.destroy()
+
     pages = len(data)
     text = ""
 
@@ -100,7 +103,7 @@ def read_book(name, data, page=1):
     tk.Button(root, text="Read All Pages", command=lambda: spawn_thread(continuous_read)).grid(row=4, column=4, sticky=N+S+E+W)
     tk.Button(root, text="Stop Reading", command=stop).grid(row=4, column=5, sticky=N+S+E+W)
 
-    tk.Button(root, text="Home", command=root.destroy).grid(row=5, column=1, sticky=N+S+E+W)
+    tk.Button(root, text="Home", command=go_home).grid(row=5, column=1, sticky=N+S+E+W)
 
     change_page(0)
 

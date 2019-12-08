@@ -6,6 +6,10 @@ This project relies on the `pyttsx3` library. To install, please run the command
 
 `pip3 install pyttsx3` or `pip install pyttsx3` depending on how your Python environment is set up.
 
+The project also relies on the `gensim` library. This can be installed via:
+
+`pip3 install gensim` or `pip install gensim` depending on how your Python environment is set up.
+
 If I have missed anything, please submit an issue to let me know at (https://github.com/CPSuperstore-Inc/eBookReader/issues)
 
 ## Usage
